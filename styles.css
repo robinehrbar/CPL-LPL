@@ -86,13 +86,17 @@ li {
 }
 
 ul li:hover{
-    background-color: grey
+    background-color: grey;
 }
 
 dt .a_anders:hover{
-    background-color: lawngreen
+    background-color: lawngreen;
 }
 
 p .a_anders:hover{
-    background-color: lawngreen
+    background-color: lawngreen;
+}
+
+main {
+    padding-bottom: 20px;
 }
