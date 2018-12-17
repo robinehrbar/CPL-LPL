@@ -1,0 +1,98 @@
+* {
+    font-family: sans-serif;
+}
+
+header {
+    text-align: center;
+    background: url(https://static.giga.de/wp-content/uploads/2016/07/pokemon-go-startet-nicht-serverprobleme-banner.jpg);
+    padding: 220px 0 0 0;
+}
+
+body {
+    background: url(https://i.pinimg.com/originals/f5/05/f5/f505f5040274b97cd5114f9ff3ab8b99.jpg);
+    background-size: cover;
+    color: rgb(71, 177, 196);
+}
+
+h1 {
+    margin: 0;
+    font-size: 40px;
+    font-family: fantasy;
+    text-decoration: underline;
+}
+
+h2 {
+    margin: 0;
+    font-size: 30px;
+    font-family: fantasy;
+}
+
+h3 {
+    margin: 15px 0 0 0;
+    font-size: 25px;
+}
+
+li {
+    display: inline;
+    margin: 0;
+    padding: 5px 5px 0 5px;
+    font-size: 20px;
+    background: rgba(8, 8, 8, 0.5);
+    border-radius: 10px;
+}
+
+
+.lpl_text {
+    color: rgb(230, 211, 46);
+}
+
+.a_weiss {
+    color: white;
+}
+
+.a_anders {
+    color: rgb(25, 143, 35)
+}
+
+@media (max-width: 768px) {
+    li {
+        display: block;
+    }
+}
+
+@media (min-width: 1400px) {
+.column {
+        width: 1400px;
+        column-count: 2;
+        column-gap: 200px;
+        }
+}
+
+#footer_id {
+    background: rgb(114, 114, 114);
+    color: black;
+    font-weight: bold;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    position: fixed;
+    margin-bottom: 0;
+    padding: 10px 0;
+}
+
+#about_id {
+    color: rgb(19, 168, 32);
+}
+
+ul li:hover{
+    background-color: grey
+}
+
+dt .a_anders:hover{
+    background-color: lawngreen
+}
+
+p .a_anders:hover{
+    background-color: lawngreen
+}
