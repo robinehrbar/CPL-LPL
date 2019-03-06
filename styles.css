@@ -41,37 +41,20 @@ li {
     border-radius: 10px;
 }
 
-
 .lpl_text {
     color: rgb(230, 211, 46);
 }
 
-.a_weiss {
+.upl_text {
+    color: rgb(176, 91, 209);
+}
+
+.a_navbar {
     color: white;
 }
 
 .a_anders {
-    color: rgb(25, 143, 35)
-}
-
-@media (max-width: 768px) {
-    li {
-        display: block;
-    }
-}
-
-@media (max-width: 1100px) {
-    body {
-        background: #222222;
-    }
-}
-
-@media (min-width: 1400px) {
-.column {
-        width: 1400px;
-        column-count: 2;
-        column-gap: 200px;
-        }
+    color: rgb(255, 255, 255)
 }
 
 #footer_id {
@@ -95,14 +78,117 @@ ul li:hover{
     background-color: grey;
 }
 
-dt .a_anders:hover{
-    background-color: lawngreen;
+p .a_anders:hover{
+    background-color: rgb(170, 170, 170);
 }
 
-p .a_anders:hover{
-    background-color: lawngreen;
+dt .a_anders:hover{
+    background-color: rgb(170, 170, 170);
 }
 
 main {
     padding-bottom: 20px;
+}
+
+@media (max-width: 1000px) {
+    body {
+        background: #222222;
+    }
+}
+
+@media (max-width: 912px) {
+    li {
+        display: block;
+    }
+    ul {
+        padding: 0 150px;
+    }
+    nav {
+        margin-top: -120px;
+    }
+}
+
+@media (max-width: 580px) {
+    ul {
+        padding: 0 100px;
+    }
+}
+
+@media (max-width: 470px) {
+    ul {
+        padding: 0 50px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .column {
+            width: 1000px;
+            display: flex;
+            }
+}
+
+@media (min-width: 1100px) {
+    .column {
+            width: 1100px;
+            }
+}
+
+@media (min-width: 1200px) {
+    .column {
+            width: 1200px;
+            }
+}
+
+@media (min-width: 1300px) {
+    .column {
+            width: 1300px;
+            }
+}
+
+@media (min-width: 1400px) {
+    .column {
+            width: 1400px;
+            }
+}
+
+@media (min-width: 1500px) {
+    .column {
+            width: 1500px;
+            }
+}
+
+@media (min-width: 1600px) {
+    .column {
+            width: 1600px;
+            }
+}
+
+@media (min-width: 1700px) {
+    .column {
+            width: 1700px;
+            }
+}
+
+@media (min-width: 1800px) {
+    .column {
+            width: 1800px;
+            }
+}
+
+@media (min-width: 1900px) {
+    .column {
+            width: 1900px;
+            }
+}
+
+@media (min-width: 2000px) {
+    .column {
+            width: 2000px;
+            }
+}
+
+@media (min-width: 2200px) {
+    .column {
+            width: 2200px;
+            }
 }
